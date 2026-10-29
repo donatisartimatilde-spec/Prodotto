@@ -2,8 +2,11 @@
 Descrizione degli attributi:
 
 nome (String): Rappresenta il nome del prodotto. 
+
 peso (double): Indica il peso del singolo pezzo in chilogrammi.
+
 prezzo (double): Rappresenta il costo di vendita in Euro del prodotto.
+
 numero Pezzi (int): Gestisce la quantità di pezzi del prodotto presenti in magazzino.
 
 Descrizione dei metodi (get e set):
@@ -11,9 +14,13 @@ Descrizione dei metodi (get e set):
 Prodotto(String nome, double peso, double prezzo, int numeroPezzi): Costruttore della classe. Inizializza tutti gli attributi del prodotto garantendo che non vengano inseriti valori negativi per peso, prezzo e numero pezzi.
 
 getNome()
+
 getPeso()
+
 getPrezzo()
+
 getNumeroPezzi()
+
 Questi metodi getter restituiscono rispettivamente il valore degli attributi privati.
 
 setPrezzo(double nuovoPrezzo): Metodo setter per aggiornare il prezzo del prodotto. Accetta il cambio solo se il nuovo prezzo è maggiore o uguale a 0.
