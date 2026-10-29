@@ -7,7 +7,7 @@ peso (double): Indica il peso del singolo pezzo in chilogrammi.
 
 prezzo (double): Rappresenta il costo di vendita in Euro del prodotto.
 
-numero Pezzi (int): Gestisce la quantità di pezzi del prodotto presenti in magazzino.
+numeroPezzi (int): Gestisce la quantità di pezzi del prodotto presenti in magazzino.
 
 Descrizione dei metodi (get e set):
 
